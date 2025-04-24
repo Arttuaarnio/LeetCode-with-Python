@@ -1,0 +1,1 @@
+# Vastaus kopioitu suoraan LeetCode:n editorista
