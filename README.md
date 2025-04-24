@@ -12,7 +12,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
 ### Helppo (15 kpl)
 
-1. **Two Sum** ([LeetCode](https://leetcode.com/problems/two-sum/), [Ratkaisu](./easy/two_sum.py))
+1. **Two Sum** ([LeetCode](https://leetcode.com/problems/two-sum/), [Ratkaisu](./1_easy/two_sum.py))
    
    ![](./images/two_sum.png)
 
@@ -256,10 +256,11 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
 ### Keskivaikea (4 kpl)
 
-1. **Add Two Numbers** ([LeetCode](https://leetcode.com/problems/add-two-numbers/), [Ratkaisu](./medium/add_two_numbers.py))
+1. **Add Two Numbers** ([LeetCode](https://leetcode.com/problems/add-two-numbers/), [Ratkaisu](./2_medium/add_two_numbers.py))
    
    ![](./images/add_two_numbers.png)
 
+<<<<<<< HEAD
 **Miten tein tehtävän:**
 
 **Miten meni:**
@@ -299,6 +300,17 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
    ---
 
 4. **Top K Frequent Elements** ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/), [Ratkaisu](./medium/top_k_frequent-elements.py))
+=======
+2. **Longest Substring Without Repeating Characters** ([LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/), [Ratkaisu](./2_medium/longest_substring_without_repeating_characters.py))
+   
+   ![](./images/longest_substring_without_repeating_characters.png)
+
+3. **Group Anagrams** ([LeetCode](https://leetcode.com/problems/group-anagrams/), [Ratkaisu](./2_medium/group_anagrams.py))
+   
+   ![](./images/group_anagrams.png)
+
+4. **Top K Frequent Elements** ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/), [Ratkaisu](./2_medium/top_k_frequent-elements.py))
+>>>>>>> 482b47f21b576b635b5b2ebd26b80fd140e8a6cf
    
    ![](./images/top_k_frequent-elements.png)
 
@@ -314,7 +326,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
 ### Vaikea (1 kpl)
 
-1. **Median of Two Sorted Arrays** ([LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/), [Ratkaisu](./hard/median_of_two_sorted_arrays.py))
+1. **Median of Two Sorted Arrays** ([LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/), [Ratkaisu](./3_hard/median_of_two_sorted_arrays.py))
    
    ![](./images/median_of_two_sorted_arrays.png)
 
