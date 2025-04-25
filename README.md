@@ -158,6 +158,7 @@ Tehtävä oli selkeä ja mukava tehdä. Ratkaisu onnistui kerralla, ja oli kiva 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
 - Kokeilla vaikka miten voisin saada myös rikkaimman asiakkaan indeksin, enkä pelkästään summan.
+
    ---
 
 **7. Climbing Stairs** ([LeetCode](https://leetcode.com/problems/climbing-stairs/), [Ratkaisu](./1_easy/climbing_stairs.py))
