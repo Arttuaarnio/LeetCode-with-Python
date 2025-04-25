@@ -40,7 +40,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
    - Idean ymmärrettäessä kokeeilla .
 
-   ---
+---
 
 **2. Palindrome Number** ([LeetCode](https://leetcode.com/problems/palindrome-number/), [Ratkaisu](./1_easy/palindrome_number.py))
    
@@ -68,7 +68,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
    def isPalindrome(self, x: int) -> bool:
     return str(x) == str(x)[::-1]
    ```
-   ---
+---
 
 **3. Merge Two Sorted Lists** ([LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/), [Ratkaisu](./1_easy/merge_two_sorted_lists.py))
    
@@ -93,7 +93,7 @@ Tehtävä tuntui hieman monimutkaiselta, koska "linked list" -rakenne ei ollut e
 
 - Luoda piirtämällä itselle visuaalinen kaavio ymmärtämisen helpottamiseksi.
 
-   ---
+---
 
 **4. Valid Parentheses** ([LeetCode](https://leetcode.com/problems/valid-parentheses/), [Ratkaisu](./1_easy/valid_parentheses.py))
    
@@ -115,7 +115,7 @@ Tehtävä tuntui loogisemmalta kuin aiemmat ja sain sen toimimaan jonkinnäköis
 
 - Harjoitella lisää `stack` -rakenteen käyttöä.
 
-   ---
+---
 
 **5. Best Time to Buy and Sell Stock** ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/), [Ratkaisu](./1_easy/best_time_to_buy_and_sell_stock.py))
    
@@ -137,7 +137,7 @@ Ensin yritin pakottaa `brute force` ratkaisua kahdella silmukalla, mutta lopetin
 
 - Miettiä rauhassa ennen ratkaisun yrittämistä.
 
-   ---
+---
 
 **6. Richest Customer Wealth** ([LeetCode](https://leetcode.com/problems/richest-customer-wealth/), [Ratkaisu](./1_easy/richest_customer_wealth.py))
    
@@ -159,7 +159,7 @@ Tehtävä oli selkeä ja mukava tehdä. Ratkaisu onnistui kerralla, ja oli kiva 
 
 - Kokeilla vaikka miten voisin saada myös rikkaimman asiakkaan indeksin, enkä pelkästään summan.
 
-   ---
+---
 
 **7. Climbing Stairs** ([LeetCode](https://leetcode.com/problems/climbing-stairs/), [Ratkaisu](./1_easy/climbing_stairs.py))
    
@@ -183,7 +183,7 @@ Edellisen tehtävän jälkeen tämä tehtävä oli rentouttavampi, sillä ei tar
 
 - Piirtää esimerkiksi taulukon n-arvoista ja vastauksista hahmoittaakseni laskennan visuaalisesti.
 
-   ---
+---
 
 **8. Binary Search** ([LeetCode](https://leetcode.com/problems/binary-search/), [Ratkaisu](./1_easy/binary_search.py))
    
@@ -207,7 +207,7 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 - Kokeilla vaikka rekursiivista versiota binäärihausta.
 
-   ---
+---
 
 **9. Ransom Note** ([LeetCode](https://leetcode.com/problems/ransom-note/), [Ratkaisu](./1_easy/ransom_note.py))
    
@@ -221,7 +221,7 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **10. Reverse Linked List** ([LeetCode](https://leetcode.com/problems/reverse-linked-list/), [Ratkaisu](./1_easy/reverse_linked_list.py))
    
@@ -236,7 +236,7 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **11. First Unique Character in a String** ([LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/), [Ratkaisu](./1_easy/first_unique_character_in_a_string.py))
    
@@ -251,7 +251,7 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **12. Intersection of Two Arrays II** ([LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/), [Ratkaisu](./1_easy/intersection_of_two_arrays2.py))
    
@@ -265,7 +265,7 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **13. Move Zeroes** ([LeetCode](https://leetcode.com/problems/move-zeroes/), [Ratkaisu](./1_easy/move_zeroes.py))
    
@@ -279,7 +279,7 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **14. Contains Duplicate** ([LeetCode](https://leetcode.com/problems/contains-duplicate/), [Ratkaisu](./1_easy/contains_duplicate.py))
    
@@ -293,7 +293,7 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **15. Plus One** ([LeetCode](https://leetcode.com/problems/plus-one/), [Ratkaisu](./1_easy/plus_one.py))
    
@@ -307,7 +307,7 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 ### Keskivaikea (5 kpl)
 
@@ -333,7 +333,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 - Tutustua lisää jatkuvaan päivitykseen liittyviä algoritmeja. 
 
-   ---
+---
 
 **2. Longest Substring Without Repeating Characters** ([LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/), [Ratkaisu](./2_medium/longest_substring_without_repeating_characters.py))
    
@@ -347,7 +347,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **3. Group Anagrams** ([LeetCode](https://leetcode.com/problems/group-anagrams/), [Ratkaisu](./2_medium/group_anagrams.py))
    
@@ -361,10 +361,9 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **4. Top K Frequent Elements** ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/), [Ratkaisu](./2_medium/top_k_frequent-elements.py))
-=======
    ![](./images/top_k_frequent-elements.png)
 
 **Miten tein tehtävän:**
@@ -375,7 +374,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 **5. Add Two Numbers** ([LeetCode](https://leetcode.com/problems/add-two-numbers/), [Ratkaisu](./2_medium/add_two_numbers.py))
    
@@ -389,7 +388,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 ### Vaikea (1 kpl)
 
@@ -405,7 +404,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-   ---
+---
 
 ## Yhteenveto
 
