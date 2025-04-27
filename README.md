@@ -75,11 +75,11 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
    ![](./images/merge_two_sorted_lists.png)
 
 **Miten tein tehtävän:**
-Tarkoituksena oli yhdistää kaksi järjestettyä listaa yhdeksi uudeksi järjestetyksi listaksi. Käytin `dummy` -nodea, jonka kautta rakensin uuden listan. Kävin läpi molempia listoja rinnakkain ja lisäsin pienemmän arvon omaavan noden uudelle listalle.
+Tarkoituksena oli yhdistää kaksi järjestettyä listaa yhdeksi uudeksi järjestetyksi listaksi. Käytin `dummy_node`:a, jonka kautta rakensin uuden listan. Kävin läpi molempia listoja rinnakkain ja lisäsin pienemmän arvon omaavan noden uudelle listalle.
 
 **Miten meni:**
 
-Tehtävä tuntui hieman monimutkaiselta, koska "linked list" -rakenne ei ollut entuudestaan tuttu ja erilainen kuin tavalliset listat. Kävin etsimässä apua tehtävän ratkaisuun ja löysin, että joku oli käyttänyt `dummy`-nodea. Aloin pelleilemään tällä, jonka avulla pääsin vihdoin käyttämään tätä uuden listan tekemiseen. Tehtävä alkoi pikkuhiljaa sujumaan, mutta kyllä sen tekemisessä tovi meni.
+Tehtävä tuntui hieman monimutkaiselta, koska "linked list" -rakenne ei ollut entuudestaan tuttu ja erilainen kuin tavalliset listat. Kävin etsimässä apua tehtävän ratkaisuun ja löysin, että joku oli käyttänyt `dummy_node`:a. Aloin pelleilemään tällä, jonka avulla pääsin vihdoin käyttämään tätä uuden listan tekemiseen. Tehtävä alkoi pikkuhiljaa sujumaan, mutta kyllä sen tekemisessä aika kauan meni.
 
 **Mitä opin:**
 
@@ -87,7 +87,7 @@ Tehtävä tuntui hieman monimutkaiselta, koska "linked list" -rakenne ei ollut e
 
 - Linkitettyjä listoja käsitellessä täytyy olla tarkkana next-osoittimien kanssa, ettei lista vahingossa katkea.
 
-- Harjoittelin myös ehdollista sijoittamista `current.next = list1 if list1 else list2` viimeisten solmujen liittämiseen.
+- Harjoittelin myös ehdollista sijoittamista `current_node.next = list1 if list1 else list2` viimeisten solmujen liittämiseen.
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
@@ -215,11 +215,19 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Miten tein tehtävän:**
 
+Tehtävässä tarkistettiin, voiko `ransomNote` -merkkijonon merkit muodostaa `magazine` -merkkijonosta. Käytin `Counter` -luokkaa, joka laskee merkkien esiintymismäärät molemmissa merkkijonoissa. Tämän jälkeen vertasin, että `magazine` sisältää riittävästi kunkin merkin määrää.
+
 **Miten meni:**
+
+Tehtävä meni yllättävän hyvin. Ratkaisu oli yksinkertainen sekä `Counter` -luokan käyttäminen nopeutti merkkien laskemista. Ei tullut suurempia ongelmia muutakuin yleiset syntax-virheet.
 
 **Mitä opin:**
 
+- Opin käyttämään `Counter` -luokkaa, jonka avulla voidaan laskea merkkien määrät nopeasti.
+
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
+
+- Harjoituksen vuoksi voisin yrittää kehittää ratkaisun käyttämättä `Counter` -luokkaa.
 
 ---
 
@@ -230,11 +238,21 @@ Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `
 
 **Miten tein tehtävän:**
 
+Tässä tehtävässä haluttiin kääntää `linked list`. Käytin kolmea apumuuttujaa: `previous_node`, `current_node` ja `next_node`. Kävin listan läpi ja käänsin jokaisen noden next-osoittimen, jolloin lista kääntyi.
+
 **Miten meni:**
+
+Tehtävä oli aluksi hieman haastava, koska linkitetyt listat eivät ole yhtä tuttuja kuin tavalliset listat. Mutta ymmärsin nopeasti, kuinka solmujen linkit käännetään. Ratkaisu onnistui hyvin, eikä tullut suuria ongelmia. 
 
 **Mitä opin:**
 
+- Periaatteet miten linkitetyt listat toimivat.
+
+- Miten kääntää simppeli linkitetty lista yksi node kerrallaan.
+
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
+
+- Seuraavalla kerralla olisin voinut tehdä tämän tehtävän ennen tehtävää "merge two sorted lists". Tämä olisi säästänyt päänsärkyä, sillä koin tämän tehtävän olevan simppelimpi.
 
 ---
 
