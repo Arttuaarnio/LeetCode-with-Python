@@ -263,11 +263,19 @@ Tehtävä oli aluksi hieman haastava, koska linkitetyt listat eivät ole yhtä t
 
 **Miten tein tehtävän:**
 
+Tehtävässä käytin `Counter` -luokkaa, jolla laskin kuinka monta kertaa kukin merkki esiintyy merkkijonossa. Kävin sitten merkkijonon läpi ja tarkistin ensimmäisen merkin, joka esiintyy vain kerran.
+
 **Miten meni:**
+
+ Tehtävä meni aika sujuvasti, sillä olin käyttänyt jo `Counter`:ia aikaisemmassa tehtävässä. Joten se oli siis tuttu ja pystyin pystyin hyödyntämään samaa ajattelutapaa.
 
 **Mitä opin:**
 
+- Miten yhdistää järkevästi `enumerate` -funktion sekä `Counter` -luokan
+
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
+
+- Sama kehitys kuin aikaisemmin, tehdä tehtävä käyttämättä `Counter` -luokkaa.
 
 ---
 
