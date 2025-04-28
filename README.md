@@ -6,7 +6,7 @@ Tämän seminaarityön ideana on kehittää omaa algoritmista ajattelua ja samal
 
 Tehtävien valinnassa käytin apuna tekoälyä, jonka avulla sain koottua mahdollisimman monipuolisen ja tasapainoisen tehtäväkokonaisuuden. Halusin mukaan erilaisia haasteita, joissa pääsee harjoittelemaan esimerkiksi taulukoita ja merkkijonoja, hakualgoritmeja, tietorakenteita ja dynaamista ohjelmointia. Näin sain rakennettua kokonaisuuden, joka kehittää teknistä osaamista, mutta myös ongelmanratkaisukykyä sekä loogista ajattelua.
 
-Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mahdollisimman selkeästi sekä tehokkaasti oman osaamiseni mukaan. Tehtävät on jaettu kolmeen vaikeustasoon: helppoihin, keskivaikeisiin ja vaikeisiin. Jokaiseen tehtävään on lisätty pohdinta tehtävästä: mitä opin sekä mitä haasteita tuli vastaan. Tehtävän yhteydestä löytyy myös kuva alkuperäisestä tehtävänannosta, jotta kokonaisuus olisi mahdollisimman ymmärrettävä.
+Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mahdollisimman selkeästi sekä tehokkaasti oman osaamiseni mukaan. Tehtävät on jaettu kolmeen vaikeustasoon: helppoihin, keskivaikeisiin ja vaikeisiin. Päätin ottaa itselleni haasteeksi suorittaa 15 helppoa, 5 keskivaikeaa, sekä yhden vaikean tehtävän. Jokaiseen tehtävään on lisätty pohdinta tehtävästä: mitä opin sekä mitä haasteita tuli vastaan. Tehtävän yhteydestä löytyy myös kuva alkuperäisestä tehtävänannosta, jotta kokonaisuus olisi mahdollisimman ymmärrettävä.
 
 ## Tehtävät
 
@@ -285,11 +285,19 @@ Tehtävässä käytin `Counter` -luokkaa, jolla laskin kuinka monta kertaa kukin
 
 **Miten tein tehtävän:**
 
+Tässä tehtävässä käytin `Counter` -luokkaa laskemaan kummankin listan alkioiden määrän. Kävin sitten toisen listan läpi ja tarkistin löytyykö alkio ensimmäisestä listasta. Jos löytyi, lisäsin sen tulokseen ja vähensin laskuria yhdellä.
+
 **Miten meni:**
+
+Tehtävä sujui hyvin, sillä `Counter` -luokka on tullut jo tutuksi muutaman edellisen tehtävän yhteydessä. On kiva huomata tehtäviä tehdessä, kun käyttää samoja rakenteita sekä luokkia, niin tuntuu, että oikeasti asiat jää paremmin päähän ja vaikuttavat enemmän ja enemmän tutuilta joka kerta.
 
 **Mitä opin:**
 
+- Syvensin `Counter` -luokan käyttöä
+
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
+
+- Kokeilla toista ratkaisutapaa, esim käyttämällä kahta `pointer`:ia
 
 ---
 
@@ -299,11 +307,19 @@ Tehtävässä käytin `Counter` -luokkaa, jolla laskin kuinka monta kertaa kukin
 
 **Miten tein tehtävän:**
 
+Tehtävässä oli tarkoitus siirtää nollat listan loppuun ja toteutin tämän käyttämällä indeksimuuttujaa `non_zero_index`, joka piti kirjaa mihin seuraava numero, joka ei ole nolla sijoitetaan. Tein aina siirron kun vastaan tullut numero ei ollut nolla.
+
 **Miten meni:**
+
+ Alussa ajattelin käyttää vain toista listaa, mutta sitten huomasin, että tehtävä vaatii "in-place" ratkaisua. Muutin lähestymistapaa ja onnistuin tekemään toimivan ratkaisun. Vaikka itsessään tehtävä oli yksinkertainen, tuntui että minulla meni siihen aivan liian kauan aikaa.
 
 **Mitä opin:**
 
+- Vahvistin omaa osaamista `for`-silmukoiden sekä indeksien käyttämisessä.
+
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
+
+- Testata toista lähestymistapaa ja vaikka siirtää kaikki ei nollat eteen ja täyttää loppu lista nollilla. 
 
 ---
 
@@ -357,7 +373,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
-- Tutustua lisää jatkuvaan päivitykseen liittyviä algoritmeja. 
+- Tutustua lisää jatkuvaan päivitykseen liittyviin algoritmeihin. 
 
 ---
 
@@ -438,5 +454,5 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 ---
 
-> Kaikki tehtävät ja ratkaisut löytyvät tästä GitHub-repositorysta.
+> Kaikki tehtävät ja ratkaisut löytyvät tästä GitHub-repositoriosta.
 
