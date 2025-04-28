@@ -24,7 +24,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
    Ensimmäisellä yrityksellä sain `IndentationError` -virheen. Toisella yrityksellä sain koodin suorittamaan ilman virheitä, mutta se palautti tyhjän listan. Kolmannella yrityksellä vaihdoin hieman lähestymistapaa, mutta sisennys meni taas pieleen. Lopulta sain kuitenkin toimivan ratkaisun. Jo ensimmäisestä tehtävästä tuli olo, että miten voi olla näin vaikeaa, vaikka tämän pitäisi olla tasoltaan helppo. Asiaa auttoi muiden kommenttien lukeminen. Tästä Tajusin, että on tosi yleistä aloittaessa kokea samaa turhautumista ja osaamattomuuden tunnetta. 
 
-   **Mitä opin:**
+   **Mitä tehtävästä jäi käteen:**
 
    - Pythonin sisennys on erittäin tarkkaa – pienikin virhe voi estää koodin ajon kokonaan.
 
@@ -54,7 +54,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
    Tehtävä oli melko suoraviivainen ja sain sen toimimaan nopeammin kuin `Two Sum` -tehtävän. Jouduin vähän tutkimaan netiste miten Pythonin merkkijonoja voidaan kääntää ja ratkaisu `[::-1]` oli helppo ja tehokas tapa ratkaista tehtävä. 
 
-   **Mitä opin:**
+   **Mitä tehtävästä jäi käteen:**
 
    - Palindromin tarkistaminen onnistuu näppärästi kääntämällä merkkijono `[::-1]` -operaattorilla.
 
@@ -81,7 +81,7 @@ Tarkoituksena oli yhdistää kaksi järjestettyä listaa yhdeksi uudeksi järjes
 
 Tehtävä tuntui hieman monimutkaiselta, koska "linked list" -rakenne ei ollut entuudestaan tuttu ja erilainen kuin tavalliset listat. Kävin etsimässä apua tehtävän ratkaisuun ja löysin, että joku oli käyttänyt `dummy_node`:a. Aloin pelleilemään tällä, jonka avulla pääsin vihdoin käyttämään tätä uuden listan tekemiseen. Tehtävä alkoi pikkuhiljaa sujumaan, mutta kyllä sen tekemisessä aika kauan meni.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Dummy-noden käyttö on tehokas tapa yksinkertaistaa linkitetyn listan rakentamista.
 
@@ -107,7 +107,7 @@ Tehtävänä oli tarkistaa, ovatko annetun merkkijonon sulut oikein sulkeutuneet
 
 Tehtävä tuntui loogisemmalta kuin aiemmat ja sain sen toimimaan jonkinnäköisesti melko nopeasti, toki ratkaisu ei ollut oikein heti alussa. Jouduin katsomaan vinkkiä, jossa sanottiin, että käytä pinoa. En ollu heti varma miten se toimii, joten menin tutkailemaan sitä netistä. Pinon käytön ymmärtäessäni tehtävän ratkaiseminen meni sujuvasti. Tehtävä ei aiheuttanut sen suurempia ongelmia, mitä pienellä googlaamisella ei pystyisi selvittämään. 
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Opin mikä on `stack` ja miten sitä voi käyttää rakenteiden käsittelemiseen, kun on kyseessä avausten sekä sulkujen seuraaminen.
 
@@ -129,7 +129,7 @@ Tarkoituksena oli löytää suurin mahdollinen voitto ostamalla osake yhtenä p�
 
 Ensin yritin pakottaa `brute force` ratkaisua kahdella silmukalla, mutta lopetin sen nopeasti, sillä halusin löytää ratkaisun, joka toimisi pelkästään yhdellä. Löysin vihdoin miten pystyn päivittämään minimihintaa samalla listaa läpi käymässä, joka tuntui hyvältä. Tosin, matka tyssäsi muutamaan klassiseen `IndentationError` -virheeseen.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Opin käyttämään `float('inf')` alkutilan asettamiseen.
 
@@ -151,7 +151,7 @@ Tässä tehtävässä laskettiin jokaiselle asiakkaalle hänen kaikkien tiliens�
 
 Tehtävä oli selkeä ja mukava tehdä. Ratkaisu onnistui kerralla, ja oli kiva huomata, kuinka tehokas yhdistelmä `sum()` ja `max()` oli tähän.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Opin lisää `sum()` ja `max()` -funktioiden käyttämisestä
 
@@ -173,7 +173,7 @@ Piti selvittää, kuinka monta erilaista tapaa on kiivetä `n` portaan ylös, ku
 
 Edellisen tehtävän jälkeen tämä tehtävä oli rentouttavampi, sillä ei tarvinnut opetella kokonaan uusia algoritmejä. Aluksi yritin tehdä rekursiivisen ratkaisun, mutta sen sijaan päädyin dynaamisen ohjelmoinnin ratkaisuun. Tämä ratkaisu toimi yhdellä silmukalla ja oli mukava huomata, että ratkaisu oli myös siisti ja tehokas.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Opin käyttämään kahta muuttujaa peräkkäisten arvojen säilyttämiseen.
 
@@ -197,7 +197,7 @@ Tehtävässä piti etsiä tietty luku `target` järjestetystä listasta. Käytin
 
 Tehtävä itsessään oli selkeä, mutta aluksi unohdin päivittää `left` ja `right` arvot oikein, jolloin loin silmukan, joka jäi pyörimään loputtomasti. Mietin mikä on vikana ja pitkän etsimisen jälkeen tajusin käyttää `//` (kokonaislukujako) ja päivittää rajat oikein, jonka jälkeen ratkaisu hyväksyttiin.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Opin binäärihaun toiminnan ja miten se perustuu listan puolittamiseen.
 
@@ -221,7 +221,7 @@ Tehtävässä tarkistettiin, voiko `ransomNote` -merkkijonon merkit muodostaa `m
 
 Tehtävä meni yllättävän hyvin. Ratkaisu oli yksinkertainen sekä `Counter` -luokan käyttäminen nopeutti merkkien laskemista. Ei tullut suurempia ongelmia muutakuin yleiset syntax-virheet.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Opin käyttämään `Counter` -luokkaa, jonka avulla voidaan laskea merkkien määrät nopeasti.
 
@@ -244,7 +244,7 @@ Tässä tehtävässä haluttiin kääntää `linked list`. Käytin kolmea apumuu
 
 Tehtävä oli aluksi hieman haastava, koska linkitetyt listat eivät ole yhtä tuttuja kuin tavalliset listat. Mutta ymmärsin nopeasti, kuinka solmujen linkit käännetään. Ratkaisu onnistui hyvin, eikä tullut suuria ongelmia. 
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Periaatteet miten linkitetyt listat toimivat.
 
@@ -269,7 +269,7 @@ Tehtävässä käytin `Counter` -luokkaa, jolla laskin kuinka monta kertaa kukin
 
  Tehtävä meni aika sujuvasti, sillä olin käyttänyt jo `Counter`:ia aikaisemmassa tehtävässä. Joten se oli siis tuttu ja pystyin pystyin hyödyntämään samaa ajattelutapaa.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Miten yhdistää järkevästi `enumerate` -funktion sekä `Counter` -luokan
 
@@ -291,7 +291,7 @@ Tässä tehtävässä käytin `Counter` -luokkaa laskemaan kummankin listan alki
 
 Tehtävä sujui hyvin, sillä `Counter` -luokka on tullut jo tutuksi muutaman edellisen tehtävän yhteydessä. On kiva huomata tehtäviä tehdessä, kun käyttää samoja rakenteita sekä luokkia, niin tuntuu, että oikeasti asiat jää paremmin päähän ja vaikuttavat enemmän ja enemmän tutuilta joka kerta.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Syvensin `Counter` -luokan käyttöä
 
@@ -313,7 +313,7 @@ Tehtävässä oli tarkoitus siirtää nollat listan loppuun ja toteutin tämän 
 
  Alussa ajattelin käyttää vain toista listaa, mutta sitten huomasin, että tehtävä vaatii "in-place" ratkaisua. Muutin lähestymistapaa ja onnistuin tekemään toimivan ratkaisun. Vaikka itsessään tehtävä oli yksinkertainen, tuntui että minulla meni siihen aivan liian kauan aikaa.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Vahvistin omaa osaamista `for`-silmukoiden sekä indeksien käyttämisessä.
 
@@ -331,7 +331,7 @@ Tehtävässä oli tarkoitus siirtää nollat listan loppuun ja toteutin tämän 
 
 **Miten meni:**
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
@@ -345,7 +345,8 @@ Tehtävässä oli tarkoitus siirtää nollat listan loppuun ja toteutin tämän 
 
 **Miten meni:**
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
+
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
@@ -365,7 +366,7 @@ Tehtävässä piti löytää suurimman summan muodostava peräkkäinen `subarray
 
 Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaan mitä se tekee. Aluksi oli vaikea ymmärtää, miksi vertaillaan `max(nums[i], max_current + nums[i])` Kirjoitin sen käsin paperille, jonka jälkeen se vähän alkoi hahmottua. Koodin sai lopulta toimimaan pitkän vääntämisen jälkeen.
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 - Opin miten Kadanen algoritmi toimii käytännössä.
 
@@ -383,11 +384,21 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Miten tein tehtävän:**
 
+Tehtässä oli tarkoituksena löytää mahdollisimman pitkä osa merkkijonosta ilman toistuvia merkkejä. Toteutin tehtävän "Sliding Window" -tekniikkaa käyttäen, jossa pidin yllä `left` ja `right` pointeria sekä `set` -rakennetta.
+
 **Miten meni:**
 
-**Mitä opin:**
+Aloitin tehtävän tekemisen `brute force` tekniikalla, mutta se osoittautui huonoksi vaihtoehdoksi. Sen jälkeen lähdin tutkimaan miten tehtävä olisi mahdollista suorittaa ja törmäsin "Sliding window" -tekniikkaan. Tehtävän hahmottaminen oli silti vähän vaikeaa ja jouduin jättämään sen kesken, sillä aivot löivät vaan ihan tyhjää. Palasin illemalla tehtävän pariin ja piirsin paperille esimerkin miten ratkaisu voisi toimia, joka auttoi vähän hahmottamaan tilannetta. Lopulta sain tehtyä ratkaisun, joka tuotti oikean vastauksen.
+
+**Mitä tehtävästä jäi käteen:**
+
+- Tutustuin "Sliding window" -tekniikkaan.
+
+- Harjoittelin `set`:in käyttöä.
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
+
+- Pitää tarpeeksi nopeasti tauko, jos tehtävän tekeminen ei vain kulje. Usein aika auttaa ajattelemisen kanssa.
 
 ---
 
@@ -397,11 +408,21 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Miten tein tehtävän:**
 
+Tehtävässä oli tarkoituksena ryhmitellä listan sanat anagrammien mukaan. Toteutin tehtävän vertaamalla sanojen aakkosjärjestykseen laitettuja versioita ja keräämällä ne yhteen `defaultdict` -rakenteen avulla.
+
 **Miten meni:**
 
-**Mitä opin:**
+Aluksi mietin monimutkaisempaa lähestymistapaa laskemalla kirjainmääriä, mutta päädyin aakkosjärjestykseen perustuvaan ideaan, joka yksinkertaisti ratkaisun. `defaultdict` -rakenne teki koodista siistin ja lyhyen. 
+
+**Mitä tehtävästä jäi käteen:**
+
+- Anagrammien tunnistus on helpompaa, kun kirjaimet on järjestetty aakkosjärjestykseen.
+
+- Tutustuin ja käytin `defaultdict` -rakennetta.
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
+
+- Miettiä suoraan mahdollisimman yksinkertainen lähestymistapa.
 
 ---
 
@@ -412,7 +433,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Miten meni:**
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
@@ -426,7 +447,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Miten meni:**
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
@@ -442,7 +463,7 @@ Rehellisesti en ollut kuullut Kadanen algoritmista ennen, joten jouduin tutkimaa
 
 **Miten meni:**
 
-**Mitä opin:**
+**Mitä tehtävästä jäi käteen:**
 
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
