@@ -325,7 +325,7 @@ Tehtävässä oli tarkoitus siirtää nollat listan loppuun ja toteutin tämän 
 
 ### Keskivaikeat tehtävät (3 kpl)
 
-**1. Maximum Subarray** ([LeetCode](https://leetcode.com/problems/maximum-subarray/), [Ratkaisu](./medium/maximum_subarray.py))
+**1. Maximum Subarray** ([LeetCode](https://leetcode.com/problems/maximum-subarray/), [Ratkaisu](./2_medium/maximum_subarray.py))
    
    ![](./images/maximum_subarray.png)
 
