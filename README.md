@@ -10,7 +10,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
 ## Tehtävät
 
-### Helpot tehtävät (15 kpl)
+### Helpot tehtävät (13 kpl)
 
 **1. Two Sum** ([LeetCode](https://leetcode.com/problems/two-sum/), [Ratkaisu](./1_easy/two_sum.py))
    
