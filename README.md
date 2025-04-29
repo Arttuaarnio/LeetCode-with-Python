@@ -10,7 +10,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
 ## Tehtävät
 
-### Helppo (15 kpl)
+### Helpot tehtävät (15 kpl)
 
 **1. Two Sum** ([LeetCode](https://leetcode.com/problems/two-sum/), [Ratkaisu](./1_easy/two_sum.py))
    
@@ -323,36 +323,7 @@ Tehtävässä oli tarkoitus siirtää nollat listan loppuun ja toteutin tämän 
 
 ---
 
-**14. Contains Duplicate** ([LeetCode](https://leetcode.com/problems/contains-duplicate/), [Ratkaisu](./1_easy/contains_duplicate.py))
-   
-   ![](./images/contains_duplicate.png)
-
-**Miten tein tehtävän:**
-
-**Miten meni:**
-
-**Mitä tehtävästä jäi käteen:**
-
-**Mitä voisin tehdä toisin seuraavalla kerralla:**
-
----
-
-**15. Plus One** ([LeetCode](https://leetcode.com/problems/plus-one/), [Ratkaisu](./1_easy/plus_one.py))
-   
-   ![](./images/plus_one.png)
-
-**Miten tein tehtävän:**
-
-**Miten meni:**
-
-**Mitä tehtävästä jäi käteen:**
-
-
-**Mitä voisin tehdä toisin seuraavalla kerralla:**
-
----
-
-### Keskivaikea (5 kpl)
+### Keskivaikeat tehtävät (3 kpl)
 
 **1. Maximum Subarray** ([LeetCode](https://leetcode.com/problems/maximum-subarray/), [Ratkaisu](./medium/maximum_subarray.py))
    
@@ -426,34 +397,7 @@ Aluksi mietin monimutkaisempaa lähestymistapaa laskemalla kirjainmääriä, mut
 
 ---
 
-**4. Top K Frequent Elements** ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/), [Ratkaisu](./2_medium/top_k_frequent-elements.py))
-   ![](./images/top_k_frequent-elements.png)
-
-**Miten tein tehtävän:**
-
-**Miten meni:**
-
-**Mitä tehtävästä jäi käteen:**
-
-**Mitä voisin tehdä toisin seuraavalla kerralla:**
-
----
-
-**5. Add Two Numbers** ([LeetCode](https://leetcode.com/problems/add-two-numbers/), [Ratkaisu](./2_medium/add_two_numbers.py))
-   
-    ![](./images/add_two_numbers.png)
-
-**Miten tein tehtävän:**
-
-**Miten meni:**
-
-**Mitä tehtävästä jäi käteen:**
-
-**Mitä voisin tehdä toisin seuraavalla kerralla:**
-
----
-
-### Vaikea (1 kpl)
+### Vaikea tehtävä
 
 **1. Median of Two Sorted Arrays** ([LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/), [Ratkaisu](./3_hard/median_of_two_sorted_arrays.py))
    
@@ -461,12 +405,24 @@ Aluksi mietin monimutkaisempaa lähestymistapaa laskemalla kirjainmääriä, mut
 
 **Miten tein tehtävän:**
 
+Yhdistin molemmat annetut listat yhdeksi `nums` ja laittelin uuden listan `sorted()`
+-funktiolla. Sen jälkeen tarkistin listan pituuden: pariton vaiko parillinen, jonka perusteella palautin mediaanin, joko keskimmäisenä arvona TAI kahden keskimmäisen numeron keskiarvona. 
+
 **Miten meni:**
+
+Lähestyin tehtävää ensin ns. optimaalisella tavalla eli binäärihakua hyödyntävällä `O(log(min(n, m)))` ratkaisulla. Luin useita kertoja tehtävän kuvauksen sekä tutkin materiaaleja ja yritin hahmottaa indeksien liikuttelua kahden taulukon välillä, mutta kokonaisuus tuntui vain liian monimutkaiselta ja aivot olivat ihan sekaisin. Lopulta päätin palata keräämään ajatuksiani ja päätin ratkaista tehtävän yksinkertaisemmalla tavalla yhdistämällä listat ja lajittelemalla ne. Tämä palautti motivaation, sillä sain ratkaisun toimimaan ja aloin ymmärtämään mediaanin logiikkaa.
 
 **Mitä tehtävästä jäi käteen:**
 
+- Ymmärsin mediaanin määritelmän ja sen käsittelyn parillisessa vs. parittomassa listassa.
+
+- Harjoittelin listojen yhdistämistä ja lajittelua Pythonissa.
+
+- Muistin, että joskus kannattaa lähteä liikkeelle yksinkertaisella ratkaisulla ja lähteä vasta sitten optimoimaan, kun osaa asiaa paremmin. 
+
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
+- Tämä ratkaisu ei täytä tehtävän varsinaista vaatimusta tehokkaasta `O(log(min(n, m)))` aikavaativuudesta, mutta sitä voisi miettiä ja kehittää ratkaisua. 
 ---
 
 ## Yhteenveto
