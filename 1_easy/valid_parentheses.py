@@ -1,4 +1,4 @@
-# Vastaus kopioitu suoraan LeetCode:n editorista
+# Tehtävää on muokattu ja lisätty testiesimerkki LeetCodesta, jotta sen pystyy suorittamaan!
 
 class Solution:
     def isValid(self, s: str) -> bool:
@@ -14,3 +14,10 @@ class Solution:
             else:
                 return False  
         return not stack
+    
+solution = Solution()
+s = "()[]{}"
+print(solution.isValid(s))  # Output: True
+
+s = "(]"
+print(solution.isValid(s))  # Output: False

@@ -1,4 +1,4 @@
-# Vastaus kopioitu suoraan LeetCode:n editorista
+# Tehtävää on muokattu ja lisätty testiesimerkki LeetCodesta, jotta sen pystyy suorittamaan!
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
@@ -12,3 +12,13 @@ class Solution:
             character_set.add(s[right])
             max_length = max(max_length, right - left + 1)    
         return max_length
+    
+solution = Solution()
+s = "abcabcbb"
+print(solution.lengthOfLongestSubstring(s))  # Output: 3 
+
+s = "bbbbb"
+print(solution.lengthOfLongestSubstring(s))  # Output: 1 
+
+s = "pwwkew"
+print(solution.lengthOfLongestSubstring(s))  # Output: 3 

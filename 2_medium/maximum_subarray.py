@@ -1,4 +1,6 @@
-# Vastaus kopioitu suoraan LeetCode:n editorista
+# Tehtävää on muokattu ja lisätty testiesimerkki LeetCodesta, jotta sen pystyy suorittamaan!
+
+from typing import List
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
@@ -8,3 +10,10 @@ class Solution:
             if max_current_sum > max_global_sum:
                 max_global_sum = max_current_sum
         return max_global_sum
+    
+solution = Solution()
+nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+print(solution.maxSubArray(nums))  # Output: 6 
+
+nums = [1]
+print(solution.maxSubArray(nums))  # Output: 1 

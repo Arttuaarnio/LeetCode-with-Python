@@ -6,7 +6,7 @@ Tämän seminaarityön ideana on kehittää omaa algoritmista ajattelua ja samal
 
 Tehtävien valinnassa käytin apuna tekoälyä, jonka avulla sain koottua mahdollisimman monipuolisen ja tasapainoisen tehtäväkokonaisuuden. Halusin mukaan erilaisia haasteita, joissa pääsee harjoittelemaan esimerkiksi taulukoita ja merkkijonoja, hakualgoritmeja, tietorakenteita ja dynaamista ohjelmointia. Näin sain rakennettua kokonaisuuden, joka kehittää teknistä osaamista, mutta myös ongelmanratkaisukykyä sekä loogista ajattelua.
 
-Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mahdollisimman selkeästi sekä tehokkaasti oman osaamiseni mukaan. Tehtävät on jaettu kolmeen vaikeustasoon: helppoihin, keskivaikeisiin ja vaikeisiin. Päätin ottaa itselleni haasteeksi suorittaa 15 helppoa, 5 keskivaikeaa, sekä yhden vaikean tehtävän. Jokaiseen tehtävään on lisätty pohdinta tehtävästä: mitä opin sekä mitä haasteita tuli vastaan. Tehtävän yhteydestä löytyy myös kuva alkuperäisestä tehtävänannosta, jotta kokonaisuus olisi mahdollisimman ymmärrettävä.
+Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mahdollisimman selkeästi sekä tehokkaasti oman osaamiseni mukaan. Tehtävät on jaettu kolmeen vaikeustasoon: helppoihin, keskivaikeisiin ja vaikeisiin. Päätin ottaa itselleni haasteeksi suorittaa 15 helppoa, 5 keskivaikeaa, sekä yhden vaikean tehtävän. Jokaiseen tehtävään on lisätty pohdinta tehtävästä: mitä opin sekä mitä haasteita tuli vastaan. Tehtävän yhteydestä löytyy myös kuva alkuperäisestä tehtävänannosta, jotta kokonaisuus olisi mahdollisimman ymmärrettävä. Itse tehtävät on tallennettuna erikseen omissa kansioissaan ja niihin löytyy myös linkki jokaisen tehtävän yhteydessä. Tehtäviin on myös toteutettu toimiva versio, eli muokattu pelkkaa koodia mitä kirjoitin LeetCode:en ja tämän muokatun koodin pystyy suorittamaan. Siihen on lisätty samaa esimerkkidataa, kuin itse LeetCode -alustalla.
 
 ## Tehtävät
 
@@ -38,7 +38,7 @@ Kaikki tehtävät on toteutettu Pythonilla ja pyrin kirjoittamaan ratkaisuni mah
 
    - Käyttää hyväksi materiaaleja sekä dokumentaatioita
 
-   - Idean ymmärrettäessä kokeeilla .
+   - Idean ymmärrettäessä kokeeilla.
 
 ---
 
@@ -423,13 +423,14 @@ Lähestyin tehtävää ensin ns. optimaalisella tavalla eli binäärihakua hyöd
 **Mitä voisin tehdä toisin seuraavalla kerralla:**
 
 - Tämä ratkaisu ei täytä tehtävän varsinaista vaatimusta tehokkaasta `O(log(min(n, m)))` aikavaativuudesta, mutta sitä voisi miettiä ja kehittää ratkaisua. 
----
 
 ## Yhteenveto
 
-!!!Täytä, kun haasteet on tehty!!!
+Seminaarityön aloittaessani olin itsevarma omista taidoistani ja uskoin pystyväni ratkaista haasteita ilman mitään ongelmia. Voin sanoa, että ensimmäistä tehtävää tehdessä tämä itsevarmuus hävisi niin nopeasti kuin oli ilmaantunutkin. Tavoitteena oli ratkaista 15 helppoa, 5 keskivaikeaa sekä 1 vaikea LeetCode-haaste, mutta todellisuudessa ratkaisin 13 helppoa, 3 keskivaikeaa ja 1 vaikean haasteen. Vaikka alkuperäiseen tavoitteeseen en siis päässyt, voin sanoa oppineeni valtavasti uutta Pythonin käytöstä sekä kehittänyt omaa algoritmista ajattelua. Tehtävien tekeminen osoitti, että ne eivätkään olleet niin helppoja kuin olin olettanut ja ongelmanratkaisussa tarvitaan paljon kärsivällisyyttä, huolellisuutta sekä ulkopuolista apua ja uusia lähestymistapoja.
 
----
+Työn tekeminen sai minut miettimään ohjelmointia syvemmin ja tajusin, että haasteiden tekeminen ei ollut pelkkää koodin kirjoittamista, vaan jatkuvaa testaamista, virheiden jäljittämistä (näitä tuli ja paljon) sekä ratkaisun muotoilua. Ymmärsin kuinka tärkeää on lukea ja tulkita virheilmoituksia tarkasti.
+
+Kaiken kaikkiaan voin sanoa, että olen positiivisesti yllättynyt seminaarityön tekemisestä: kokemust oli haastava, mutta samalla todella opettavainen. Vaikka alkuperäinen suunnitelma ei ihan toteutunut, niin mielestäni tärkeämpää on se, mitä uutta opin matkan varrella. Ymmärrykseni ohjelmoinnista on laajentunut ja ongelmanratkaisutaitoni ovat kehittyneet. Sain harjoiteltua jo tutumpia aiheita syvemmin sekä sain käsityksen missä on vielä paljon kehitettävää. Oli kiva seurata omaa etenemistä konkreettisesti ja varmasti aion tulevaisuudessakin syventyä algoritmeihin enemmän ja jatkaa LeetCode-haasteiden tekemistä!
 
 > Kaikki tehtävät ja ratkaisut löytyvät tästä GitHub-repositoriosta.
 

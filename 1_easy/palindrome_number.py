@@ -1,4 +1,4 @@
-# Vastaus kopioitu suoraan LeetCode:n editorista
+# Tehtävää on muokattu ja lisätty testiesimerkki LeetCodesta, jotta sen pystyy suorittamaan!
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
@@ -7,3 +7,7 @@ class Solution:
                 return True
             else:
                 return False
+            
+x = 121
+solution = Solution()
+print(solution.isPalindrome(x))  # Output: True
